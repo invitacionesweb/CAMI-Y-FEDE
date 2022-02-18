@@ -1,7 +1,7 @@
 :root {
     --color-principal:#F7F7F7;
-    --color-secundario:#78B399;
-    --color-terciario:#5C7C59;
+    --color-secundario:#8FC6AE;
+    --color-terciario:#c0d6c0;
     --font-principal:'Sacramento', cursive;
     --font-secundaria:'Nunito', sans-serif;
 }
@@ -26,7 +26,7 @@ main {
     height: 90vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: url(./background/background1.png);
+    background-image: url(icon/bgflores.png);
     padding: 60px;
 }
 main .text {
@@ -54,6 +54,7 @@ h1 {
     padding: 10px 30PX;
     text-decoration: none;
     text-align: center;
+    margin-bottom: 10px;
 
  }
  .boton:hover {
