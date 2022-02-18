@@ -27,7 +27,7 @@ body h2 {
 header {
     width: 100%;
     height: 100vh;
-    background-image: url(./icon/backf.png);
+    background-image: url(icon/backf.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,7 +62,8 @@ header {
 .inicio p {
     padding-top: 30px;
     padding: 0;
-    margin: 0;    font-size: 12px;
+    margin: 0;    
+    font-size: 16px;
 }
 .boton {
    border: 1px solid var(--color-secundario);
@@ -114,8 +115,12 @@ header p {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.lovestory h2 {
+    font-size: 42px;
+}
 .lovestory-text {
     padding: 60px 40px;
+    font-size: 20px;
 }
 
 .lovestory-img {
@@ -150,7 +155,7 @@ header p {
 
 .info h2 {
     color: #000000;
-    font-size: 58px;
+    font-size: 68px;
     padding: 10px;
 }
 
@@ -167,8 +172,9 @@ header p {
 }
 
 
+
 .info-cards h2 {
-    font-size: 40px;
+    font-size: 50px;
     color: var(--color-terciario);
 
 }
@@ -186,7 +192,7 @@ header p {
     height: 80vh;
     padding: 50px;
     margin:auto;
-    background-image: url(icon/corazonbackg.png);
+    background-image: url(icon/marcobg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -196,24 +202,26 @@ header p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    
+    
 }
 .rsvp-text {
     max-width: 240px;
     gap: 0;
     padding: 0;
     margin: 0;
+    color: black;
 }
 .rsvp-card h2 {
-    color: var(--color-principal);
+    color: var(--color-terciario);
     padding: 0;
-    font-size: 40px;
+    font-size: 36px;
 
 }
 .rsvp-card p{
-    color: var(--color-principal);
+    color: var(--color-terciario);
     padding: 0px 8px;
-    font-size: 20px;
+    font-size: 16px;
     margin: 0;
    
 
@@ -229,6 +237,7 @@ header p {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 
 .regalos .icono {
     width: 50px;
@@ -369,7 +378,13 @@ footer .contenido{
 
 @media (max-width: 660px) {
     header { 
-        background-size:contain;
+        background-size:cover;
+        background-image: url(./icon/backf2.png);
+
+    }
+    .info {
+        background-image: url(icon/backf2.png);
+        
     }
     .lovestory {
         grid-template-columns: 1fr;
@@ -382,7 +397,8 @@ footer .contenido{
     }
     .info-cards {
         flex-direction: column;
-    
-    
+
     }
+    
+    
 }
