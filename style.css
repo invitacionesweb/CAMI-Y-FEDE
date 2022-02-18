@@ -226,7 +226,16 @@ header p {
    
 
 }
-
+.imagenessegundaparte {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.imagenessegundaparte img {
+    width: 100%;
+    
+}
 
 .regalos {
     width: 100%;
@@ -403,6 +412,9 @@ footer .contenido{
     .info-cards {
         flex-direction: column;
 
+    }
+    .imagenessegundaparte {
+        grid-template-columns: 1fr;
     }
     .regalos {
         background-image: url(./icon/Copiadebgflores.png);
