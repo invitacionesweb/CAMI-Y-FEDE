@@ -120,6 +120,10 @@ footer .contenido{
         justify-content: flex-end;
     
     }
+    main {
+        background-color: var(--color-secundario);
+        padding: 30px;
+    }
     
 
 }
